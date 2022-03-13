@@ -1,0 +1,22 @@
+body {
+    margin:0;
+    padding: 0;
+}
+
+#container {    
+    display: flex;
+    width: 970px;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+div.card {
+    width: 300px;
+    margin: 10px;
+    border: 1px solid #000;
+    text-align: center;
+}
+div.statusList {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
